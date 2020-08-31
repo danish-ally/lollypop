@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lollypop clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <!-- nav  -->
+            <nav>
+                <div class="name">
+                    <img class="logo" src="img/lollypop-logo.svg" alt="logo">
+                    <p class="brand-name">UX UI DESIGN STUDIO</p>
+                </div>
+
+                <ul class="list">
+                    <li class="nav-content"> <a href="#"> PROCESS </a></li>
+                    <li class="nav-content"><a href="#"> PROJECTS </a></li>
+                    <li class="nav-content"> <a href="#"> ABOUT</a></li>
+                    <li class="hamburger">
+                        <div class="line1"></div>
+                        <div class="line2"></div>
+                        <div class="line3"></div>
+                    </li>
+                </ul>
+            </nav>
+            <!-- banner  -->
+            <main class="banner">
+                <p class="a">We’ve made an impact on</p>
+                <br>
+                <p class="b">A Billion Lives</p>
+                <br>
+                <p class="c">through <span id="changer"></span></p>
+                <br>
+                <p class="d">
+                    Seven years of crafting sweet experiences with <br>
+                    Research, Design & Development.
+                </p>
+            </main>
+            <script>
+                changer = () =>{
+    var array = ["Myntra", "Swiggy", "Paytm Money", "Stanford University", "Aditya Birla", "Bajaj Finserv", "100+ Startups"];
+    var i=0;
+    while(i<7)
+    setInterval(() => {
+        document.getElementById("changer").innerText = array[i];
+        if(i==6){
+            i=0;
+        }
+    }, 2);
+} 
+            </script>
+        </div>
+    </header>
+    <!-- latest PROJECTS  -->
+
+    <section class="project">
+
+        <img src="img/runadam-latest.png" alt="">
+
+        <div class="cont">
+            <p class="a">Our latest projects</p>
+            <br>
+            <p class="b">Realise your sporting dream</p>
+            <p class="c">RundAdam is a 360-degree sports technology platform, to help and empower of aspiring
+                sportspersons all over the world.It's is the only networking plateform that helps and connects every
+                sports lover.</p>
+            <button type="submit" class="view">VIEW PROJECT</button>
+        </div>
+    </section>
+
+
+    <!-- services  -->
+
+
+    <div class="row">
+        <div class="service">
+            <span>Our Services</span>
+            <h2>A UI UX company that is transforming <br> and scaling businesses successfully <br> through its services
+            </h2>
+        </div>
+        <div class="all_services">
+
+            <div class="research">
+                <h1>Research</h1>
+                <p> Generative User Research</p>
+                <p>Expert Reviews & <br> Heuristic Analysis</p>
+                <p>Usability Testing</p>
+                <p>Emerging trends & <br> Behaviour</p>
+                <p>Ethnographic Research</p>
+            </div>
+            <div class="design">
+                <h1>Design</h1>
+                <P>Product & Digital <br> Innovation</P>
+                <P>UX UI Design</P>
+                <P>Design Audit</P>
+                <P>Digital Branding</P>
+                <P>Prototyping</P>
+            </div>
+            <div class="build">
+                <h1>Build</h1>
+                <p>Front end development</p>
+                <p>Web Application</p>
+                <p>Mobile Application</p>
+                <p>Custom Application</p>
+                <p>SAAS Implementation</p>
+            </div>
+        </div>
+    </div>
+
+    <section>
+        <div class="container_b">
+            <div class="audit">
+                <h1>Design Audit</h1>
+                <p>Realise the full potential of your product with a Design Audit</p>
+
+                <span>VISIT NOW</span>
+
+            </div>
+            <div class="testing">
+                <h1>Usability Testing</h1>
+                <p>Know what your users want with Usability Testing</p>
+
+                <span>VISIT NOW</span>
+
+
+            </div>
+        </div>
+    </section>
+    <!-- start-up  -->
+    <div class="start-up">
+        <div class="heading">
+            <p>From Fortune 500 to Start-ups, we have <br> worked with every brilliant idea</p>
+        </div>
+        <div class="img">
+            <img class="imgg" src="img/01.png" alt="1">
+            <img class="imgg" src="img/02.png" alt="2">
+            <img class="imgg" src="img/03.png" alt="3">
+            <img class="imgg" src="img/04.png" alt="4">
+            <br>
+            <img class="imgg" src="img/05.png" alt="5">
+            <img class="imgg" src="img/06.png" alt="6">
+            <img class="imgg" src="img/07.png" alt="7">
+            <img class="imgg" src="img/08.png" alt="8">
+            <br>
+            <img class="imgg" src="img/09.png" alt="9">
+            <img class="imgg" src="img/10.png" alt="10">
+            <img class="imgg" src="img/11.png" alt="11">
+            <img class="imgg" src="img/12.png" alt="12">
+            <br>
+        </div>
+        <div class="learn">
+            <span>LEARN MORE</span>
+        </div>
+
+    </div>
+
+
+    <div class="container_c">
+
+
+        <div class="nav_1">
+            <nav>
+                <ul>
+
+
+
+                    <li><a href="#">Healthcare</a></li>
+                    <li><a href="#">Fintech</a></li>
+                    <li><a href="#">Agriculture</a></li>
+                    <li><a href="#">Enterprise</a></li>
+                    <li><a href="#">All</a></li>
+                </ul>
+            </nav>
+            <!-- </div> -->
+            <div class="healthcare">
+
+                <h1>Transforming <br> Healthcare with <br> Design</h1>
+                <p>From patient to doctors, insurence to pharmaceuticals <br>
+
+                    and from sergical supplies to hospital; Our design <br> have touched everyone.</p>
+
+                <button>CASE STUDY</button>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="row_a">
+        <span>Awards and accolades</span>
+        <h1>Some of our noteworthy and recent recognitions</h1>
+        <div class="award">
+
+
+            <div class="figure">
+
+                <img src="img/awards.png" alt="awards0">
+                <h4>DNA Paris Design Winner</h4>
+                <span>DNA PARIS DESIGN AWARD, 2020</span>
+                <br>
+                <br>
+            </div>
+
+            <div class="figure">
+
+                <img src="img/awards (1).png" alt="awards1">
+                <h4>Digital Interaction Award</h4>
+                <span>DESIGN INTELLIGENCE AWARD, CHINA - 2019</span>
+                <br>
+                <br>
+            </div>
+
+            <div class="figure">
+
+                <img src="img/awards (2).png" alt="awards2">
+                <h4>Interface Design Award</h4>
+                <span>RED DOT AWARD, EUROPE - 2019</span>
+                <br>
+                <br>
+            </div>
+
+            <div class="figure">
+
+                <img src="img/awards (3).png" alt="awards3">
+                <h4>DNA Paris Design Winner</h4>
+                <span>DNA PARIS DESIGN AWARDS, 2019</span>
+                <br>
+                <br>
+            </div>
+
+
+
+
+            <div class="figure">
+
+                <img src="img/awards (4).png" alt="award4">
+                <h4>UX UI Design Leaders</h4>
+                <span>CLUTCH, 2019</span>
+                <br>
+                <br>
+            </div>
+
+            <div class="figure">
+
+                <img src="img/awards (5).png" alt="award5">
+                <h4>Best Design Agency - Gold</h4>
+                <span>DESIGN X AWARDS, 2018</span>
+                <br>
+                <br>
+            </div>
+
+            <div class="figure">
+
+                <img src="img/awards (6).png" alt="award6">
+                <h4>Baby Elephant Award</h4>
+                <span>KYOORIUS DESIGN AWARDS, 2018</span>
+                <br>
+                <br>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+    <div class="container_d">
+        <div class="blogs">
+            <span class="l">Latest Blogs</span>
+            <br>
+
+            <div class="blogss">
+
+                <div class="blog_a">
+                    <span>By Aditya Venkatesan on Aug 26</span>
+                    <h1>How Can Banks Turn Millennials Into LifeLong Customers</h1>
+                    <p>Millennials are going to be the largest customer segment for bank in ve...</p>
+                    <span class="read">READ MORE</span>
+                </div>
+                <div class="blog_b">
+                    <span>By Susan Noby Kurian on Aug 12</span>
+                    <h1>The Design Revulation In Banking</h1>
+                    <p>Amidst the COVID_19 Pandemic, Banks Finteachs are not left with a choic...</p>
+                    <span class="read">READ MORE</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="container-e">
+        <img class="pbs" src="img/pbs-thumbnail (1).png" alt="">
+        <div class="h">
+            <div class="m">
+
+                <span>Our latest Whitepaper</span>
+                <h4>The Future Of Public Bicycle Sharing System</h4>
+                <p>Public Bicycle Sharing System can be a smart and heathy option to combat traffic</p>
+                <span class="rl">Released on: 02 Nov 2018</span>
+            </div>
+        </div>
+
+    </div>
+
+    <section class="news">
+        <div class="row">
+            <span>Featured in</span>
+            <h2>Because they thought our story was worth telling</h2>
+        </div>
+        <ul>
+            <img class="n" src="img/the-hindu.png" alt="hindu">
+            <img class="n" src="img/economic-times.png" alt="economic">
+            <img class="n" src="img/kyoorius.png" alt="kyoorius">
+            <img class="n" src="img/silicon-india.png" alt="silicon-india">
+            <img class="n" src="img/your-story.png" alt="your-story">
+        </ul>
+    </section>
+
+    <div class="event_gallery">
+        <ul>
+
+            <div class="content">
+                <button>UPDATES</button>
+                <h2>Winner ar DNA Award,2020</h2>
+                <p>An accolade honoring the work of international designer</p>
+            </div>
+            <div class="e">
+
+                <img src="img/dna-paris-award.jpg" alt="paris">
+            </div>
+        </ul>
+
+    </div>
+
+    <div class="red">
+        <div class="all">
+            <div class="vd">
+                <img src="img/blue-image.jpg" alt="blue-image">
+            </div>
+            <div class="reddot">
+                <img src="img/reddot-lollypop.jpg" alt="reddot-lollypop">
+
+            </div>
+        </div>
+    </div>
+
+    <section class="craft">
+        <div class="get">
+            <span>Thinking of Design?</span>
+            <h2>Let's craft brilliance together!</h2>
+            <button><a href="#">GET IN TOUCH</a></button>
+        </div>
+    </section>
+
+    <section class="link">
+        <div class="container">
+            <span>Catch us candid here</span>
+            <ul>
+                <li><a href="#">Linkedin</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#"> Facebook</a></li>
+                <li><a href="#"> Twitter</a></li>
+                <li><a href="#">Dribbble</a></li>
+            </ul>
+
+
+
+        </div>
+    </section>
+
+    <footer>
+        <ul>
+            <li><a href="#">Privacy Policy </a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#"> Terms Of Use</a></li>
+        </ul>
+        <span class="copyright">&copy; 2018 Terralogic Digital Creatives Pvt.ltd</span>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
